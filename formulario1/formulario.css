@@ -1,0 +1,39 @@
+#caixa {
+	text-align: center;
+	border: 5px;
+	border-style: solid;
+	border-color: #999999;
+	border-radius: 5px;
+	margin-left: 800px;
+	margin-right: 800px;
+	background-color: #f4f4f4;
+}
+
+#botoes {
+	margin: 15px;
+
+}
+
+.ex {
+	text-align: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#logar {
+	background-color: #727d3e;
+	border-radius: 3px;
+	color: white;
+	height: 30px;
+	margin-right: 5px;
+}
+#cancelar{
+	background-color: #727d3e;
+	border-radius: 3px;
+	color: white;
+	height: 30px;
+	margin-left: 5px;
+}
