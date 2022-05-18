@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario2</title>
+</head>
+<body>
+	<form action="" method="post">
+		<div>
+			<h3>Dados de Acesso</h3>
+			<div>
+				<label for="email">E-mail *</label>
+				<input type="email" id="email" required>
+			</div>
+			<div>
+				<label for="senha">Senha *</label>
+				<input type="password" id="senha" required>
+			</div>
+			<div>
+				<label for="senha">Confirmar Senha *</label>
+				<input type="password" id="confirmaSenha" required>
+			</div>
+		</div>
+		<div>
+			<h3>Dados Empresariais</h3>
+			<div>
+				<label for="cnpj">CNPJ *</label>
+				<input type="number" id="cnpj" required>
+			</div>
+			<div>
+				<label for="nomeEmpresa">Nome da Empresa *</label>
+				<input type="text" id="nomeEmpresa" required>
+			</div>
+			<div>
+				<label for="rSocial">Razão social *</label>
+				<input type="text" id="rSocial" required>
+			</div>
+			<div>
+				<label for="area">Área</label>
+				<select name="area" id="area">
+					<option value="" disabled selected>Não Informada</option>
+					<option value="a">A</option>
+					<option value="b">B</option>
+					<option value="c">C</option>
+				</select>
+			</div>
+			<div>
+				<label for="site">Site</label>
+				<input type="url" id="site">
+			</div>
+		</div>
+		<div>
+			<h3>Telefone</h3>
+			<div>
+				<label for="DDD">DDD *</label>
+				<input type="number" name="ddd" id="ddd" required>
+			</div>
+			<div>
+				<label for="numero">Número *</label>
+				<input type="number" name="numero" id="numero" required>
+			</div>
+			<div>
+				<label for="tipo">Tipo</label>
+				<select name="tipo" id="tipo">
+					<option value="a" selected>Celular</option>
+					<option value="b">Telefone</option>
+				</select>
+			</div>
+			<div>
+				<img src="/home/BLING.INTERNO/mateus.haupt/workspace/formulario2/img/pngwing.com.png" alt="">
+				<p>Remover este telefone</p>
+			</div>
+			<div>
+				<button >Adicionar outro telefone</button>
+			</div>
+		</div>
+	</form>
+</body>
+</html>
