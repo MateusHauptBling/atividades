@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="formulario.css" />
 	<title>Formulario2</title>
 </head>
+
 <body>
 	<form action="" method="post">
-		<div>
+		<div class="d">
 			<h3>Dados de Acesso</h3>
 			<div>
 				<label for="email">E-mail *</label>
@@ -23,7 +26,7 @@
 				<input type="password" id="confirmaSenha" required>
 			</div>
 		</div>
-		<div>
+		<div class="d">
 			<h3>Dados Empresariais</h3>
 			<div>
 				<label for="cnpj">CNPJ *</label>
@@ -51,7 +54,7 @@
 				<input type="url" id="site">
 			</div>
 		</div>
-		<div>
+		<div class="d">
 			<h3>Telefone</h3>
 			<div>
 				<label for="DDD">DDD *</label>
@@ -73,73 +76,75 @@
 				<p>Remover este telefone</p>
 			</div>
 			<div>
-				<button >Adicionar outro telefone</button>
-			</div>
-			<div>
-				<h3>Localização</h3>
-				<div>
-					<label for="rua">Rua *</label>
-					<input type="text" id="rua" required>
-				</div>
-				<div>
-					<label for="numeroEnd">Número</label>
-					<input type="number" id="numeroEnd">
-				</div>
-				<div>
-					<label for="bairro">Bairro *</label>
-					<input type="text" id="bairro" required>
-				</div>
-				<div>
-					<label for="complemento">Complemeto</label>
-					<input type="text" id="nomeEmpresa" >
-				</div>
-				<div>
-					<label for="cep">CEP *</label>
-					<input type="number" id="cep">
-				</div>
-				<div>
-					<label for="estado">Estado</label>
-					<select name="estado" id="estado">
-						<option value="rs"selected>Rio Grande do Sul</option>
-						<option value="a">A</option>
-						<option value="b">B</option>
-						<option value="c">C</option>
-					</select>
-				</div>
-				<div>
-					<label for="cidade">Cidade</label>
-					<select name="cidade" id="cidade">
-						<option value="bg" selected>Bento Gonçalves</option>
-						<option value="a">A</option>
-						<option value="b">B</option>
-						<option value="c">C</option>
-					</select>
-				</div>
-			</div>
-			<div>
-				<h3>Pessoa para Contato</h3>
-				<div>
-					<label for="nomeCont">Nome Completo *</label>
-					<input type="text" id="nomeCont" required>
-				</div>
-				<div>
-					<label for="emailCont">E-mail *</label>
-					<input type="email" id="emailCont" required>
-				</div>
-				<div>
-					<label for="cargo">Cargo *</label>
-					<input type="email" id="cargo" required>
-				</div>
-				<div>
-					<label for="observação">Observação</label>
-					<input type="text" name="observação" id="observação">
-				</div>
-			</div>
-			<div>
-				<p>Os campos com asterisco(*) são obrigatórios</p>
-				<input type="submit" value="Cadastrar">
+				<button>Adicionar outro telefone</button>
 			</div>
 		</div>
+		<div class="d">
+			<h3>Localização</h3>
+			<div>
+				<label for="rua">Rua *</label>
+				<input type="text" id="rua" required>
+			</div>
+			<div>
+				<label for="numeroEnd">Número</label>
+				<input type="number" id="numeroEnd">
+			</div>
+			<div>
+				<label for="bairro">Bairro *</label>
+				<input type="text" id="bairro" required>
+			</div>
+			<div>
+				<label for="complemento">Complemeto</label>
+				<input type="text" id="nomeEmpresa">
+			</div>
+			<div>
+				<label for="cep">CEP *</label>
+				<input type="number" id="cep">
+			</div>
+			<div>
+				<label for="estado">Estado</label>
+				<select name="estado" id="estado">
+					<option value="rs" selected>Rio Grande do Sul</option>
+					<option value="a">A</option>
+					<option value="b">B</option>
+					<option value="c">C</option>
+				</select>
+			</div>
+			<div>
+				<label for="cidade">Cidade</label>
+				<select name="cidade" id="cidade">
+					<option value="bg" selected>Bento Gonçalves</option>
+					<option value="a">A</option>
+					<option value="b">B</option>
+					<option value="c">C</option>
+				</select>
+			</div>
+		</div>
+		<div class="d">
+			<h3>Pessoa para Contato</h3>
+			<div>
+				<label for="nomeCont">Nome Completo *</label>
+				<input type="text" id="nomeCont" required>
+			</div>
+			<div>
+				<label for="emailCont">E-mail *</label>
+				<input type="email" id="emailCont" required>
+			</div>
+			<div>
+				<label for="cargo">Cargo *</label>
+				<input type="email" id="cargo" required>
+			</div>
+			<div>
+				<label for="observação">Observação</label>
+				<input type="text" name="observação" id="observação">
+			</div>
+		</div>
+		<div>
+			<p>Os campos com asterisco(*) são obrigatórios</p>
+			<input type="submit" value="Cadastrar">
+		</div>
+
 	</form>
 </body>
+
 </html>

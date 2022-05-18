@@ -1,0 +1,26 @@
+form{
+	margin-right: 1000px;
+}
+
+.d{
+	border: 1px;
+	border-style: solid;
+	border-color: #999999;
+	margin: 25px;
+	padding: 10px;
+
+}
+h3{
+
+}
+label{
+	color: #539dc5;
+}
+
+input{
+	background-color: #f1f1f9;
+	border: #f1f1f9;
+}
+img{
+	width: 20px;
+}
