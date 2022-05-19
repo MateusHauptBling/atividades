@@ -11,37 +11,39 @@
 
 <body>
 	<form action="" method="post">
+		<h3 id="ace">Dados de Acesso</h3>
 		<div class="d">
-			<h3>Dados de Acesso</h3>
+
 			<div>
-				<label for="email">E-mail *</label>
+				<li><label for="email">E-mail *</label></li>
 				<input type="email" id="email" required>
 			</div>
 			<div>
-				<label for="senha">Senha *</label>
+				<li><label for="senha">Senha *</label></li>
 				<input type="password" id="senha" required>
 			</div>
 			<div>
-				<label for="senha">Confirmar Senha *</label>
+				<li><label for="senha">Confirmar Senha *</label></li>
 				<input type="password" id="confirmaSenha" required>
 			</div>
 		</div>
+		<h3 id="dad">Dados Empresariais</h3>
 		<div class="d">
-			<h3>Dados Empresariais</h3>
+
 			<div>
-				<label for="cnpj">CNPJ *</label>
+				<li><label for="cnpj">CNPJ *</label></li>
 				<input type="number" id="cnpj" required>
 			</div>
 			<div>
-				<label for="nomeEmpresa">Nome da Empresa *</label>
+				<li><label for="nomeEmpresa">Nome da Empresa *</label></li>
 				<input type="text" id="nomeEmpresa" required>
 			</div>
 			<div>
-				<label for="rSocial">Razão social *</label>
+				<li><label for="rSocial">Razão social *</label></li>
 				<input type="text" id="rSocial" required>
 			</div>
 			<div>
-				<label for="area">Área</label>
+				<li><label for="area">Área</label></li>
 				<select name="area" id="area">
 					<option value="" disabled selected>Não Informada</option>
 					<option value="a">A</option>
@@ -50,69 +52,72 @@
 				</select>
 			</div>
 			<div>
-				<label for="site">Site</label>
+				<li><label for="site">Site</label></li>
 				<input type="url" id="site">
 			</div>
 		</div>
-		<div class="d">
-			<h3>Telefone</h3>
+		<h3 id="tel">Telefone</h3>
+		<div class="d" id="telefone">
 			<div>
-				<label for="DDD">DDD *</label>
+				<li><label for="DDD" id="ddd">DDD *</label></li>
 				<input type="number" name="ddd" id="ddd" required>
 			</div>
-			<div>
-				<label for="numeroTel">Número *</label>
+			<div class="numeroTel">
+				<li ><label for="numeroTel" >Número *</label></li>
 				<input type="number" name="numeroTel" id="numeroTel" required>
 			</div>
-			<div>
-				<label for="tipo">Tipo</label>
+			<div class="tipo">
+				<li><label for="tipo" >Tipo</label></li>
 				<select name="tipo" id="tipo">
 					<option value="a" selected>Celular</option>
 					<option value="b">Telefone</option>
 				</select>
 			</div>
-			<div>
+			<div class="img">
 				<img src="/home/BLING.INTERNO/mateus.haupt/workspace/formulario2/img/pngwing.com.png" alt="">
 				<p>Remover este telefone</p>
 			</div>
-			<div>
+			<div id="linha"></div>
+			<div class="button">
 				<button>Adicionar outro telefone</button>
 			</div>
 		</div>
-		<div class="d">
-			<h3>Localização</h3>
+		<h3 id="loc">Localização</h3>
+		<div class="d" id="local">
 			<div>
-				<label for="rua">Rua *</label>
+				<li><label for="rua">Rua *</label></li>
 				<input type="text" id="rua" required>
 			</div>
 			<div>
-				<label for="numeroEnd">Número</label>
+				<li><label for="numeroEnd">Número</label></li>
 				<input type="number" id="numeroEnd">
 			</div>
 			<div>
-				<label for="bairro">Bairro *</label>
+				<li><label for="bairro">Bairro *</label></li>
 				<input type="text" id="bairro" required>
 			</div>
 			<div>
-				<label for="complemento">Complemeto</label>
+				<li><label for="complemento">Complemeto</label></li>
 				<input type="text" id="nomeEmpresa">
 			</div>
 			<div>
-				<label for="cep">CEP *</label>
+				<li><label for="cep" id="cep">CEP *</label></li>
 				<input type="number" id="cep">
 			</div>
 			<div>
-				<label for="estado">Estado</label>
-				<select name="estado" id="estado">
-					<option value="rs" selected>Rio Grande do Sul</option>
-					<option value="a">A</option>
-					<option value="b">B</option>
-					<option value="c">C</option>
-				</select>
+				<li><label for="estado" id="estado">Estado</label></li>
+				<div>
+					<select name="estado" id="estado">
+						<option value="rs" selected>Rio Grande do Sul</option>
+						<option value="a">A</option>
+						<option value="b">B</option>
+						<option value="c">C</option>
+					</select>
+				</div>
 			</div>
-			<div>
-				<label for="cidade">Cidade</label>
-				<select name="cidade" id="cidade">
+			<div class="cidade">
+				<li><label for="cidade">Cidade</label></li>
+				<select name="cidade" id="cidade" >
 					<option value="bg" selected>Bento Gonçalves</option>
 					<option value="a">A</option>
 					<option value="b">B</option>
@@ -120,28 +125,28 @@
 				</select>
 			</div>
 		</div>
+		<h3 id="pes">Pessoa para Contato</h3>
 		<div class="d">
-			<h3>Pessoa para Contato</h3>
 			<div>
-				<label for="nomeCont">Nome Completo *</label>
+				<li><label for="nomeCont">Nome Completo *</label></li>
 				<input type="text" id="nomeCont" required>
 			</div>
 			<div>
-				<label for="emailCont">E-mail *</label>
+				<li><label for="emailCont">E-mail *</label></li>
 				<input type="email" id="emailCont" required>
 			</div>
 			<div>
-				<label for="cargo">Cargo *</label>
+				<li><label for="cargo">Cargo *</label></li>
 				<input type="email" id="cargo" required>
 			</div>
 			<div>
-				<label for="observação">Observação</label>
+				<li><label for="observação">Observação</label></li>
 				<input type="text" name="observação" id="observação">
 			</div>
 		</div>
 		<div>
-			<p>Os campos com asterisco(*) são obrigatórios</p>
-			<input type="submit" value="Cadastrar">
+			<p id="p">Os campos com asterisco(*) são obrigatórios</p>
+			<input type="submit" value="Cadastrar" class="submit">
 		</div>
 
 	</form>
