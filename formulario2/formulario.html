@@ -13,7 +13,6 @@
 	<form action="" method="post">
 		<h3 id="ace">Dados de Acesso</h3>
 		<div class="d">
-
 			<div>
 				<li><label for="email">E-mail *</label></li>
 				<input type="email" id="email" required>
@@ -58,16 +57,16 @@
 		</div>
 		<h3 id="tel">Telefone</h3>
 		<div class="d" id="telefone">
-			<div>
+			<div class="box1">
 				<li><label for="DDD" id="ddd">DDD *</label></li>
 				<input type="number" name="ddd" id="ddd" required>
 			</div>
-			<div class="numeroTel">
-				<li ><label for="numeroTel" >Número *</label></li>
+			<div class="box2">
+				<li><label for="numeroTel">Número *</label></li>
 				<input type="number" name="numeroTel" id="numeroTel" required>
 			</div>
-			<div class="tipo">
-				<li><label for="tipo" >Tipo</label></li>
+			<div class="box3">
+				<li><label for="tipo">Tipo</label></li>
 				<select name="tipo" id="tipo">
 					<option value="a" selected>Celular</option>
 					<option value="b">Telefone</option>
@@ -75,9 +74,11 @@
 			</div>
 			<div class="img">
 				<img src="/home/BLING.INTERNO/mateus.haupt/workspace/formulario2/img/pngwing.com.png" alt="">
+			</div>
+			<div>
 				<p>Remover este telefone</p>
 			</div>
-			<div id="linha"></div>
+			<hr>
 			<div class="button">
 				<button>Adicionar outro telefone</button>
 			</div>
@@ -104,25 +105,27 @@
 				<li><label for="cep" id="cep">CEP *</label></li>
 				<input type="number" id="cep">
 			</div>
-			<div>
-				<li><label for="estado" id="estado">Estado</label></li>
+			<div class="estcid">
 				<div>
-					<select name="estado" id="estado">
-						<option value="rs" selected>Rio Grande do Sul</option>
+					<li><label for="estado" id="estado">Estado</label></li>
+					<div class="a">
+						<select name="estado" id="estado">
+							<option value="rs" selected>Rio Grande do Sul</option>
+							<option value="a">A</option>
+							<option value="b">B</option>
+							<option value="c">C</option>
+						</select>
+					</div>
+				</div>
+				<div class="cidade" class="a">
+					<li><label for="cidade">Cidade</label></li>
+					<select name="cidade" id="cidade">
+						<option value="bg" selected>Bento Gonçalves</option>
 						<option value="a">A</option>
 						<option value="b">B</option>
 						<option value="c">C</option>
 					</select>
 				</div>
-			</div>
-			<div class="cidade">
-				<li><label for="cidade">Cidade</label></li>
-				<select name="cidade" id="cidade" >
-					<option value="bg" selected>Bento Gonçalves</option>
-					<option value="a">A</option>
-					<option value="b">B</option>
-					<option value="c">C</option>
-				</select>
 			</div>
 		</div>
 		<h3 id="pes">Pessoa para Contato</h3>
@@ -141,7 +144,7 @@
 			</div>
 			<div>
 				<li><label for="observação">Observação</label></li>
-				<input type="text" name="observação" id="observação">
+				<textarea name="observação" id="obs" cols="50" rows="15"></textarea>
 			</div>
 		</div>
 		<div>
