@@ -8,9 +8,8 @@ form {
 	border-style: solid;
 	border-color: #999999;
 	width: auto;
-	padding: 1%;
+	padding: 3%;
 	padding-top: 25px;
-
 }
 
 h3 {
@@ -72,6 +71,9 @@ p{
     top: 5px;
 }
 
+.hid{
+	width: fit-content;
+}
 
 .button{
 	grid-column: 5;
@@ -84,7 +86,7 @@ button {
 	border: #d87a08;
 	height: 30px;
     position: relative;
-    left: 75px;
+    left: 45px;
 }
 
 #ddd {
@@ -101,7 +103,6 @@ button {
 }
 
 .submit {
-
 	color: #ffffff;
 	background-color: #fe8c09;
 	height: 35px;
@@ -111,12 +112,11 @@ button {
 
 }
 
-
 #telefone{
 	min-width: fit-content;
 	display: grid;
 	grid-auto-columns: auto;
-	grid-template-columns: 75px 190px 95px 20px 225px;
+	grid-template-columns: 75px 190px 95px 20px 198px;
 	grid-gap: 10px;
 	grid-auto-rows: auto;
     grid-template-rows: 50px;
@@ -134,11 +134,84 @@ button {
 }
 
 hr{
-	width: 645px;
+	width: 620px;
 }
 
 .last{
 	display: grid;
 	grid-template-columns: 510px 150px;
 	margin-top: 10px;
+}
+
+@media (max-width: 420px){
+	form {
+		max-width: 420px;
+		width: 420px;
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+		align-items: center;
+	}
+	.d {
+		width: max-content;
+    	display: flex;
+    	flex-direction: column;
+    	align-items: flex-start;
+	}
+	#telefone{
+		display: grid;
+		grid-auto-columns: auto;
+		grid-template-columns: 72px 155px 81px 20px;
+		grid-gap: 10px;
+		grid-auto-rows: auto;
+    	grid-template-rows: 50px;
+	}
+	hr{
+		width: 10px;
+	}
+	input{
+		margin-bottom: 5%;
+	}
+	select{
+		margin-bottom: 5%;
+		width: 355px;
+	}
+	.last{
+		display: flex;
+		flex-direction: column;
+    	align-items: center;
+	}
+	.estcid{
+		display: flex;
+		flex-direction: column;
+	}
+	#obs{
+		width: 350px;
+		height: 150px;
+	}
+	.hid{
+		display: none;
+	}
+	hr{
+		grid-column: 1;
+    	grid-row: 2;
+    	width: 355px;
+	}
+	.button{
+		grid-column: 2;
+		grid-row: 3;
+	}
+	button{
+		position: relative;
+    	left: 20px;
+	}
+	#ddd {
+		width: 60px;
+	}
+	#numeroTel {
+		width: 145px;
+	}
+	#tipo {
+		width: 80px;
+	}
 }
