@@ -1,15 +1,15 @@
 form {
 	margin: 1%;
-	max-width: 800px;
+	max-width: 660px;
 }
 
 .d {
 	border: 1px;
 	border-style: solid;
 	border-color: #999999;
-	width: min-content;
+	width: auto;
 	padding: 1%;
-
+	padding-top: 25px;
 
 }
 
@@ -18,24 +18,8 @@ h3 {
 	background-color: #ffffff;
 	position: relative;
 	left: 1.5%;
-	top: 10%;
-
-
-}
-#ace{
-
-}
-#dad{
-
-}
-#tel{
-
-}
-#loc{
-
-}
-#pes{
-
+	top: 30px;
+	width: fit-content;
 }
 
 label {
@@ -46,7 +30,7 @@ label {
 input {
 	background-color: #f1f1f9;
 	border-color: #f1f1f9;
-	margin-bottom: 10%;
+	margin-bottom: 3%;
 	height: 25px;
 	width: 350px;
 }
@@ -55,7 +39,7 @@ select {
 	background-color: #f1f1f9;
 	padding: 5px;
 	border: #f1f1f9;
-	margin-bottom: 10%;
+	margin-bottom: 3%;
 	height: 30px;
 	width: 250px;
 }
@@ -120,6 +104,10 @@ button {
 
 	color: #ffffff;
 	background-color: #fe8c09;
+	height: 35px;
+	width: 150px;
+	position: relative;
+	top: 10px;
 
 }
 
@@ -137,10 +125,20 @@ button {
 .estcid{
 	display: grid;
 	grid-auto-columns: auto;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 250px 250px;
 	grid-gap: 10px;
+}
+
+#obs{
+	width: -webkit-fill-available;
 }
 
 hr{
 	width: 645px;
+}
+
+.last{
+	display: grid;
+	grid-template-columns: 510px 150px;
+	margin-top: 10px;
 }

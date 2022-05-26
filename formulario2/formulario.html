@@ -11,7 +11,7 @@
 
 <body>
 	<form action="" method="post">
-		<h3 id="ace">Dados de Acesso</h3>
+		<h3>Dados de Acesso</h3>
 		<div class="d">
 			<div>
 				<li><label for="email">E-mail *</label></li>
@@ -26,9 +26,8 @@
 				<input type="password" id="confirmaSenha" required>
 			</div>
 		</div>
-		<h3 id="dad">Dados Empresariais</h3>
+		<h3>Dados Empresariais</h3>
 		<div class="d">
-
 			<div>
 				<li><label for="cnpj">CNPJ *</label></li>
 				<input type="number" id="cnpj" required>
@@ -55,17 +54,17 @@
 				<input type="url" id="site">
 			</div>
 		</div>
-		<h3 id="tel">Telefone</h3>
+		<h3>Telefone</h3>
 		<div class="d" id="telefone">
-			<div class="box1">
+			<div>
 				<li><label for="DDD" id="ddd">DDD *</label></li>
 				<input type="number" name="ddd" id="ddd" required>
 			</div>
-			<div class="box2">
+			<div>
 				<li><label for="numeroTel">Número *</label></li>
 				<input type="number" name="numeroTel" id="numeroTel" required>
 			</div>
-			<div class="box3">
+			<div>
 				<li><label for="tipo">Tipo</label></li>
 				<select name="tipo" id="tipo">
 					<option value="a" selected>Celular</option>
@@ -83,8 +82,8 @@
 				<button>Adicionar outro telefone</button>
 			</div>
 		</div>
-		<h3 id="loc">Localização</h3>
-		<div class="d" id="local">
+		<h3>Localização</h3>
+		<div class="d">
 			<div>
 				<li><label for="rua">Rua *</label></li>
 				<input type="text" id="rua" required>
@@ -108,7 +107,7 @@
 			<div class="estcid">
 				<div>
 					<li><label for="estado" id="estado">Estado</label></li>
-					<div class="a">
+					<div>
 						<select name="estado" id="estado">
 							<option value="rs" selected>Rio Grande do Sul</option>
 							<option value="a">A</option>
@@ -117,7 +116,7 @@
 						</select>
 					</div>
 				</div>
-				<div class="cidade" class="a">
+				<div>
 					<li><label for="cidade">Cidade</label></li>
 					<select name="cidade" id="cidade">
 						<option value="bg" selected>Bento Gonçalves</option>
@@ -128,7 +127,7 @@
 				</div>
 			</div>
 		</div>
-		<h3 id="pes">Pessoa para Contato</h3>
+		<h3>Pessoa para Contato</h3>
 		<div class="d">
 			<div>
 				<li><label for="nomeCont">Nome Completo *</label></li>
@@ -147,7 +146,7 @@
 				<textarea name="observação" id="obs" cols="50" rows="15"></textarea>
 			</div>
 		</div>
-		<div>
+		<div class="last">
 			<p id="p">Os campos com asterisco(*) são obrigatórios</p>
 			<input type="submit" value="Cadastrar" class="submit">
 		</div>
