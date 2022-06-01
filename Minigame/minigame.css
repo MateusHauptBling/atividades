@@ -1,0 +1,64 @@
+html, body{
+	height: 100%;
+}
+
+div{
+	background-color: #43b6d5;
+	height: 200px;
+	width: 200px;
+}
+
+.topLeft{
+	position: absolute;
+    left: 0;
+    top: 0;
+}
+.topMid{
+	position: absolute;
+    left: calc(50% - 100px);
+    top: 0;
+}
+
+.topRight{
+	position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.midLeft{
+	position: absolute;
+    left: 0;
+    top: calc(50% - 100px);
+}
+
+.midMid{
+	position: absolute;
+    left: calc(50% - 100px);
+    top: calc(50% - 100px);
+
+}
+
+.midRight{
+	position: absolute;
+	right: 0;
+	top: calc(50% - 100px);
+}
+
+.botLeft{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.botMid{
+	position: absolute;
+    left: calc(50% - 100px);
+    bottom: 0;
+}
+
+.botRight{
+	position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
