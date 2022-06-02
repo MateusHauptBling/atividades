@@ -3,39 +3,39 @@ $(function () {
 		event.preventDefault();
 		switch (event.keyCode) {
 			case 49:
-				$("div").toggleClass( "botLeft", [1000] );
+				$("div").removeClass().toggleClass( "botLeft")
 				break;
 
 			case 50:
-				$("div").toggleClass( "botMid", [1000] );
+				$("div").removeClass().toggleClass( "botMid");
 				break;
 
 			case 51:
-				$("div").toggleClass( "botRight", [1000] );
+				$("div").removeClass().toggleClass( "botRight");
 				break;
 
 			case 52:
-				$("div").toggleClass( "midLeft", [1000] );
+				$("div").removeClass().toggleClass( "midLeft");
 				break;
 
 			case 53:
-				$("div").toggleClass( "midMid", [1000] );
+				$("div").removeClass().toggleClass( "midMid");
 				break;
 
 			case 54:
-				$("div").toggleClass( "midRight", [1000] );
+				$("div").removeClass().toggleClass( "midRight");
 				break;
 
 			case 55:
-				$("div").toggleClass( "topLeft", [1000] );
+				$("div").removeClass().toggleClass( "topLeft");
 				break;
 
 			case 56:
-				$("div").toggleClass( "topMid", [1000] );
+				$("div").removeClass().toggleClass( "topMid");
 				break;
 
 			case 57:
-				$("div").toggleClass( "topRight", [1000] );
+				$("div").removeClass().toggleClass( "topRight");
 				break;
 		}
 

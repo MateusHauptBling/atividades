@@ -4,61 +4,79 @@ html, body{
 
 div{
 	background-color: #43b6d5;
-	height: 200px;
 	width: 200px;
+	height: 200px;
 }
 
 .topLeft{
 	position: absolute;
     left: 0;
     top: 0;
+	transition: all 1000ms linear 0.5s;
+	background-color: #172b30;
 }
 .topMid{
 	position: absolute;
     left: calc(50% - 100px);
     top: 0;
+	transition: all 1000ms linear 0.5s;
+
 }
 
 .topRight{
 	position: absolute;
-    right: 0;
+    left: calc(100% - 200px);
     top: 0;
+	transition: all 1000ms linear 0.5s;
 }
 
 .midLeft{
 	position: absolute;
     left: 0;
     top: calc(50% - 100px);
+	transition: all 1000ms linear 0.5s;
+
 }
 
 .midMid{
 	position: absolute;
     left: calc(50% - 100px);
     top: calc(50% - 100px);
-
+	transition: all 1000ms linear 0.5s;
+	background-color: #43b6d5;
+	height: 200px;
+	width: 200px;
 }
 
 .midRight{
 	position: absolute;
-	right: 0;
+	left: calc(100% - 200px);
 	top: calc(50% - 100px);
+	transition: all 1000ms linear 0.5s;
 }
 
 .botLeft{
 	position: absolute;
     left: 0;
-    bottom: 0;
+    top: calc(100% - 200px);
+	transition: all 1000ms linear 0.5s;
 }
 
 .botMid{
 	position: absolute;
     left: calc(50% - 100px);
-    bottom: 0;
+    top: calc(100% - 200px);;
+	transition: all 1000ms linear 0.5s;
+	background: #f3a05a;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
 
 .botRight{
 	position: absolute;
-    right: 0;
-    bottom: 0;
+    left: calc(100% - 200px);
+    top: calc(100% - 200px);;
+	transition: all 1000ms linear 0.5s;
 }
 
