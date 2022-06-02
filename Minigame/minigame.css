@@ -2,25 +2,26 @@ html, body{
 	height: 100%;
 }
 
-div{
-	background-color: #43b6d5;
-	width: 200px;
-	height: 200px;
-}
-
 .topLeft{
 	position: absolute;
     left: 0;
     top: 0;
 	transition: all 1000ms linear 0.5s;
-	background-color: #172b30;
+	background: #172b30;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
 }
 .topMid{
 	position: absolute;
     left: calc(50% - 100px);
     top: 0;
 	transition: all 1000ms linear 0.5s;
-
+	background: #115eba;
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	width: 200px;
+    height: 200px;
 }
 
 .topRight{
@@ -28,6 +29,9 @@ div{
     left: calc(100% - 200px);
     top: 0;
 	transition: all 1000ms linear 0.5s;
+	background: #d0b6ad;
+	height: 200px;
+	width: 200px;
 }
 
 .midLeft{
@@ -35,7 +39,11 @@ div{
     left: 0;
     top: calc(50% - 100px);
 	transition: all 1000ms linear 0.5s;
-
+	background: #ffd060;
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	width: 200px;
+    height: 200px;
 }
 
 .midMid{
@@ -43,7 +51,7 @@ div{
     left: calc(50% - 100px);
     top: calc(50% - 100px);
 	transition: all 1000ms linear 0.5s;
-	background-color: #43b6d5;
+	background: #43b6d5;
 	height: 200px;
 	width: 200px;
 }
@@ -53,6 +61,10 @@ div{
 	left: calc(100% - 200px);
 	top: calc(50% - 100px);
 	transition: all 1000ms linear 0.5s;
+	background: #f3a05a;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
 
 .botLeft{
@@ -60,6 +72,9 @@ div{
     left: 0;
     top: calc(100% - 200px);
 	transition: all 1000ms linear 0.5s;
+	background: #ad6b2d;
+    width: 200px;
+    height: 200px;
 }
 
 .botMid{
@@ -78,5 +93,10 @@ div{
     left: calc(100% - 200px);
     top: calc(100% - 200px);;
 	transition: all 1000ms linear 0.5s;
+	background: #ffd060;
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	width: 200px;
+    height: 200px;
 }
 
