@@ -37,6 +37,16 @@ $(function () {
 			case 57:
 				$("div").removeClass().addClass( "topRight");
 				break;
+
+			case 42:
+				$("div").removeClass("giroEsq").addClass("giroDir");
+				break;
+			case 47:
+				$("div").removeClass("giroDir").addClass("giroEsq");
+				break;
+			case 46:
+				$("div").removeClass("giroDir giroEsq");
+				break;
 		}
 
 	});
