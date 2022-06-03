@@ -1,59 +1,49 @@
 $(function () {
+
+	function alteraPosicao(classe) {
+		$("div").removeClass(function (index, className) {
+			return (className.match(/(^|\s)(bot|mid|top)\S+/g) || []).join('');
+		}).addClass(classe);
+	}
+
 	$(document).keypress(function (event) {
 		event.preventDefault();
+
 		switch (event.keyCode) {
 			case 49:
-				$("div").removeClass(function (index, className) {
-					return (className.match(/(^|\s)(bot|mid|top)\S+/g) || []).join('');
-				}).addClass("botLeft");
+				alteraPosicao("botLeft");
 				break;
 
 			case 50:
-				$("div").removeClass(function (index, className) {
-					return (className.match(/(^|\s)(bot|mid|top)\S+/g) || []).join('');
-				}).addClass("botMid");
+				alteraPosicao("botMid");
 				break;
 
 			case 51:
-				$("div").removeClass(function (index, className) {
-					return (className.match(/(^|\s)(bot|mid|top)\S+/g) || []).join('');
-				}).addClass("botRight");
+				alteraPosicao("botRight");
 				break;
 
 			case 52:
-				$("div").removeClass(function (index, className) {
-					return (className.match(/(^|\s)(bot|mid|top)\S+/g) || []).join('');
-				}).addClass("midLeft");
+				alteraPosicao("midLeft");
 				break;
 
 			case 53:
-				$("div").removeClass(function (index, className) {
-					return (className.match(/(^|\s)(bot|mid|top)\S+/g) || []).join('');
-				}).addClass("midMid");
+				alteraPosicao("midMid");
 				break;
 
 			case 54:
-				$("div").removeClass(function (index, className) {
-					return (className.match(/(^|\s)(bot|mid|top)\S+/g) || []).join('');
-				}).addClass("midRight");
+				alteraPosicao("midRight");
 				break;
 
 			case 55:
-				$("div").removeClass(function (index, className) {
-					return (className.match(/(^|\s)(bot|mid|top)\S+/g) || []).join('');
-				}).addClass("topLeft");
+				alteraPosicao("topLeft");
 				break;
 
 			case 56:
-				$("div").removeClass(function (index, className) {
-					return (className.match(/(^|\s)(bot|mid|top)\S+/g) || []).join('');
-				}).addClass("topMid");
+				alteraPosicao("topMid");
 				break;
 
 			case 57:
-				$("div").removeClass(function (index, className) {
-					return (className.match(/(^|\s)(bot|mid|top)\S+/g) || []).join('');
-				}).addClass("topRight");
+				alteraPosicao("topRight");
 				break;
 
 			case 42:
