@@ -8,9 +8,11 @@ html, body{
     top: 0;
 	transition: all 1000ms linear 0.5s;
 	background: #172b30;
+	border: 10px solid #172b30;
+	border-top-color: #267de2;
 	border-radius: 50%;
-	height: 200px;
-	width: 200px;
+	height: 195px;
+	width: 195px;
 }
 .topMid{
 	position: absolute;
@@ -18,10 +20,12 @@ html, body{
     top: 0;
 	transition: all 1000ms linear 0.5s;
 	background: #115eba;
+	border: 10px solid #115eba;
+	border-top-color: #267de2;
 	border-top-left-radius: 50%;
 	border-bottom-right-radius: 50%;
-	width: 200px;
-    height: 200px;
+	height: 195px;
+	width: 195px;
 }
 
 .topRight{
@@ -30,8 +34,10 @@ html, body{
     top: 0;
 	transition: all 1000ms linear 0.5s;
 	background: #d0b6ad;
-	height: 200px;
-	width: 200px;
+	border: 10px solid #d0b6ad;
+	border-top-color: #267de2;
+	height: 195px;
+	width: 195px;
 }
 
 .midLeft{
@@ -40,10 +46,12 @@ html, body{
     top: calc(50% - 100px);
 	transition: all 1000ms linear 0.5s;
 	background: #Dc2e13;
+	border: 10px solid #Dc2e13;
+	border-top-color: #267de2;
 	border-top-left-radius: 50%;
 	border-bottom-right-radius: 50%;
-	width: 200px;
-    height: 200px;
+	height: 195px;
+	width: 195px;
 }
 
 .midMid{
@@ -52,8 +60,10 @@ html, body{
     top: calc(50% - 100px);
 	transition: all 1000ms linear 0.5s;
 	background: #43b6d5;
-	height: 200px;
-	width: 200px;
+	border: 10px solid #43b6d5;
+	border-top-color: #267de2;
+	height: 195px;
+	width: 195px;
 }
 
 .midRight{
@@ -62,9 +72,11 @@ html, body{
 	top: calc(50% - 100px);
 	transition: all 1000ms linear 0.5s;
 	background: #C313dc;
+	border: 10px solid #C313dc;
+	border-top-color: #267de2;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    height: 195px;
+	width: 195px;
 }
 
 .botLeft{
@@ -73,8 +85,10 @@ html, body{
     top: calc(100% - 200px);
 	transition: all 1000ms linear 0.5s;
 	background: #ad6b2d;
-    width: 200px;
-    height: 200px;
+	border: 10px solid #ad6b2d;
+	border-top-color: #267de2;
+    height: 195px;
+	width: 195px;
 }
 
 .botMid{
@@ -83,9 +97,11 @@ html, body{
     top: calc(100% - 200px);;
 	transition: all 1000ms linear 0.5s;
 	background: #f3a05a;
+	border: 10px solid #f3a05a;
+	border-top-color: #267de2;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    height: 195px;
+	width: 195px;
 }
 
 .botRight{
@@ -94,10 +110,12 @@ html, body{
     top: calc(100% - 200px);;
 	transition: all 1000ms linear 0.5s;
 	background: #ffd060;
+	border: 10px solid #ffd060;
+	border-top-color: #267de2;
 	border-top-left-radius: 50%;
 	border-bottom-right-radius: 50%;
-	width: 200px;
-    height: 200px;
+	height: 195px;
+	width: 195px;
 }
 
 .giroDir{
