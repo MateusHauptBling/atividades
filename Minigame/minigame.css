@@ -98,7 +98,6 @@ body {
 	position: absolute;
 	left: calc(50% - 100px);
 	top: calc(100% - 200px);
-	;
 	transition: all 1000ms linear 0.5s;
 	background: #f3a05a;
 	border: 10px solid #f3a05a;
@@ -112,7 +111,6 @@ body {
 	position: absolute;
 	left: calc(100% - 200px);
 	top: calc(100% - 200px);
-	;
 	transition: all 1000ms linear 0.5s;
 	background: #ffd060;
 	border: 10px solid #ffd060;
