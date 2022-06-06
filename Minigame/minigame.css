@@ -3,122 +3,96 @@ body {
 	height: 100%;
 }
 
+.size{
+	height: 195px;
+	width: 195px;
+	border: 10px solid
+}
+
+.transition{
+	transition: all 1000ms linear 0.5s;
+}
+
+.circle{
+	border-top-color: #267de2;
+	border-radius: 50%;
+}
+
+.cirquare{
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
 .topLeft {
 	position: absolute;
 	left: 0;
 	top: 0;
-	transition: all 1000ms linear 0.5s;
 	background: #172b30;
-	border: 10px solid #172b30;
-	border-top-color: #267de2;
-	border-radius: 50%;
-	height: 195px;
-	width: 195px;
-
+	border-color: #172b30;
 }
 
 .topMid {
 	position: absolute;
 	left: calc(50% - 100px);
 	top: 0;
-	transition: all 1000ms linear 0.5s;
 	background: #115eba;
-	border: 10px solid #115eba;
-	border-top-color: #267de2;
-	border-top-left-radius: 50%;
-	border-bottom-right-radius: 50%;
-	height: 195px;
-	width: 195px;
+	border-color: #115eba;
 }
 
 .topRight {
 	position: absolute;
 	left: calc(100% - 200px);
 	top: 0;
-	transition: all 1000ms linear 0.5s;
 	background: #d0b6ad;
-	border: 10px solid #d0b6ad;
-	border-top-color: #267de2;
-	height: 195px;
-	width: 195px;
+	border-color: #d0b6ad;
 }
 
 .midLeft {
 	position: absolute;
 	left: 0;
 	top: calc(50% - 100px);
-	transition: all 1000ms linear 0.5s;
 	background: #Dc2e13;
-	border: 10px solid #Dc2e13;
-	border-top-color: #267de2;
-	border-top-left-radius: 50%;
-	border-bottom-right-radius: 50%;
-	height: 195px;
-	width: 195px;
+	border-color: #Dc2e13;
 }
 
 .midMid {
 	position: absolute;
 	left: calc(50% - 100px);
 	top: calc(50% - 100px);
-	transition: all 1000ms linear 0.5s;
 	background: #43b6d5;
-	border: 10px solid #43b6d5;
-	border-top-color: #267de2;
-	height: 195px;
-	width: 195px;
+	border-color: #43b6d5;
 }
 
 .midRight {
 	position: absolute;
 	left: calc(100% - 200px);
 	top: calc(50% - 100px);
-	transition: all 1000ms linear 0.5s;
 	background: #C313dc;
-	border: 10px solid #C313dc;
-	border-top-color: #267de2;
-	border-radius: 50%;
-	height: 195px;
-	width: 195px;
+	border-color: #C313dc;
 }
 
 .botLeft {
 	position: absolute;
 	left: 0;
 	top: calc(100% - 200px);
-	transition: all 1000ms linear 0.5s;
 	background: #ad6b2d;
-	border: 10px solid #ad6b2d;
-	border-top-color: #267de2;
-	height: 195px;
-	width: 195px;
+	border-color: #ad6b2d;
 }
 
 .botMid {
 	position: absolute;
 	left: calc(50% - 100px);
 	top: calc(100% - 200px);
-	transition: all 1000ms linear 0.5s;
 	background: #f3a05a;
-	border: 10px solid #f3a05a;
-	border-top-color: #267de2;
-	border-radius: 50%;
-	height: 195px;
-	width: 195px;
+	border-color: #f3a05a;
 }
 
 .botRight {
 	position: absolute;
 	left: calc(100% - 200px);
 	top: calc(100% - 200px);
-	transition: all 1000ms linear 0.5s;
 	background: #ffd060;
-	border: 10px solid #ffd060;
-	border-top-color: #267de2;
-	border-top-left-radius: 50%;
-	border-bottom-right-radius: 50%;
-	height: 195px;
-	width: 195px;
+	border-color: #ffd060;
 }
 
 .giroDir {

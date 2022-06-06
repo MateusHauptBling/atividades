@@ -1,8 +1,13 @@
 $(function () {
 
-	function alteraPosicao(classe) {
-		$("div").removeClass(function (index, className) {
+	function changePosition(class) {
+		$('div').removeClass(function (index, className) {
 			return (className.match(/(^|\s)(bot|mid|top)\S+/g) || []).join('');
+		}).addClass(class);
+	}
+	function changeObject(classe) {
+		$('div').removeClass(function (index, className) {
+			return (className.match(/(^|\s)(circle||cirquare)\S+/g) || []).join('');
 		}).addClass(classe);
 	}
 
@@ -11,49 +16,55 @@ $(function () {
 
 		switch (event.keyCode) {
 			case 49:
-				alteraPosicao("botLeft");
+				changePosition('botLeft');
 				break;
 
 			case 50:
-				alteraPosicao("botMid");
+				changePosition('botMid');
+				changeObject('circle');
 				break;
 
 			case 51:
-				alteraPosicao("botRight");
+				changePosition('botRight');
+				changeObject('cirquare');
 				break;
 
 			case 52:
-				alteraPosicao("midLeft");
+				changePosition('midLeft');
+				changeObject('cirquare');
 				break;
 
 			case 53:
-				alteraPosicao("midMid");
+				changePosition('midMid');
 				break;
 
 			case 54:
-				alteraPosicao("midRight");
+				changePosition('midRight');
+				changeObject('circle')
 				break;
 
 			case 55:
-				alteraPosicao("topLeft");
+				changePosition('topLeft');
+				changeObject('circle');
 				break;
 
 			case 56:
-				alteraPosicao("topMid");
+				changePosition('topMid');
+				changeObject('cirquare');
 				break;
 
 			case 57:
-				alteraPosicao("topRight");
+				changePosition('topRight');
 				break;
 
 			case 42:
-				$("div").removeClass("giroEsq").addClass("giroDir");
+				$('div').removeClass('giroEsq').addClass('giroDir');
 				break;
 			case 47:
-				$("div").removeClass("giroDir").addClass("giroEsq");
+				$('div').removeClass('giroDir').addClass('giroEsq');
 				break;
 			case 46:
-				$("div").removeClass("giroDir giroEsq");
+				$('div').removeClass('giroDir giroEsq');
 				break;
 		}
 
