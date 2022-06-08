@@ -3,13 +3,11 @@ body {
 	height: 100%;
 }
 
-.size{
+#position{
 	height: 195px;
 	width: 195px;
-	border: 10px solid
-}
-
-.transition{
+	border: 10px solid;
+	border-color: #267de2 transparent transparent transparent;
 	transition: all 1000ms linear 0.5s;
 }
 
@@ -27,8 +25,6 @@ body {
 	left: 0;
 	top: 0;
 	background: #172b30;
-	border-top-color: #267de2;
-	border: #172b30;
 }
 
 .topMid {
@@ -36,7 +32,6 @@ body {
 	left: calc(50% - 100px);
 	top: 0;
 	background: #115eba;
-	border: #115eba;
 }
 
 .topRight {
@@ -44,7 +39,6 @@ body {
 	left: calc(100% - 200px);
 	top: 0;
 	background: #d0b6ad;
-	border: #d0b6ad;
 }
 
 .midLeft {
@@ -52,7 +46,6 @@ body {
 	left: 0;
 	top: calc(50% - 100px);
 	background: #Dc2e13;
-	border: #Dc2e13;
 }
 
 .midMid {
@@ -60,7 +53,6 @@ body {
 	left: calc(50% - 100px);
 	top: calc(50% - 100px);
 	background: #43b6d5;
-	border: #43b6d5;
 }
 
 .midRight {
@@ -68,8 +60,6 @@ body {
 	left: calc(100% - 200px);
 	top: calc(50% - 100px);
 	background: #C313dc;
-	border: #C313dc;
-	border-top-color: #267de2;
 }
 
 .botLeft {
@@ -77,7 +67,6 @@ body {
 	left: 0;
 	top: calc(100% - 200px);
 	background: #ad6b2d;
-	border: #ad6b2d;
 }
 
 .botMid {
@@ -85,8 +74,6 @@ body {
 	left: calc(50% - 100px);
 	top: calc(100% - 200px);
 	background: #f3a05a;
-	border: #f3a05a;
-	border-top-color: #267de2;
 }
 
 .botRight {
@@ -94,7 +81,6 @@ body {
 	left: calc(100% - 200px);
 	top: calc(100% - 200px);
 	background: #ffd060;
-	border: #ffd060;
 }
 
 .giroDir {
